@@ -41,7 +41,7 @@ const Home = () => {
         <h1 className=' text-2xl font-semibold text-center text-green-500'>Hi, {currentUser.name} you have a successfully created account</h1>
         <Button style={{backgroundColor: "green", color: "white", marginTop: "22px", width: "80px"}}
             onClick={handleLogout}
-            > { loading ? ('Loading...'): 'SignUp'} </Button>
+            > { loading ? ('Loading...'): 'Logout'} </Button>
 
       </div>
     </div>
