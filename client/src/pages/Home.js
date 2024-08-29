@@ -14,7 +14,7 @@ const Home = () => {
 
   const handleLogout = async() => {
     try {
-      const res = await axios.post("http://localhost:5000/logout",{}, {withCredentials: true})
+      const res = await axios.post("https://job-seekers-6epj.onrender.com/logout",{}, {withCredentials: true})
       if(res.status === 200){
          localStorage.removeItem('token')
            dispatch(RemoveUserSuccess())
