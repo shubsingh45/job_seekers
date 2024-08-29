@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://job-seekers-five.vercel.app', 
     methods: 'POST',
     credentials: true
 }));
