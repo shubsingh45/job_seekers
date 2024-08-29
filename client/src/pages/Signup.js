@@ -18,7 +18,7 @@ const Signup = () => {
     const handelSignUp = async() => {
         setLoading(true)
         try {
-            const res = await axios.post("http://localhost:5000/signup", {name, email, password, resume}, {
+            const res = await axios.post("https://job-seekers-6epj.onrender.com/signup", {name, email, password, resume}, {
                 headers: {
                     'Content-Type': 'multipart/form-data' 
                 },
